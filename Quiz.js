@@ -21,7 +21,7 @@ const data = [
         ],
     },
     {
-        id: 3,
+        id: 1,
         question: "A group of which animals is referred to as a wake?",
         answer: [
             { answer: "bats", isCorrect: false },
@@ -50,14 +50,12 @@ const playAgain = () => {
     wrongCount = 0;
     total = 0;
     showQuestion(qIndex);
-
 };
 
 play.addEventListener("click", () => {
     resultScreen.style.display = "none";
     gameScreen.style.display = "block";
     playAgain()
-
 })
 
 const showResult = () => {
@@ -85,7 +83,7 @@ const showQuestion = (qNumber) => {
             (item, index) =>
 
                 <div class="answer">
-                    <input type="radio" id=${index} name="answer" value=${ item.isCorrect} />
+                    <input type="radio" id=${index} name="answer" value=${item.isCorrect} />
                     <label for="1">${item.answer}</label>
                 </div>
         )
@@ -109,7 +107,6 @@ const submitAnswer = () => {
             showQuestion(qIndex);
         } else alert("Select an answer!");
     });
-
 };
 
 showQuestion(qIndex);
