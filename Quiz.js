@@ -75,7 +75,7 @@ const showResult = () => {
 };
 
 const showQuestion = (qNumber) => {
-    if (qIndex === data.lenght) return showResult();
+    if (qIndex === data.length) return showResult();
     selectedAnswer = null;
     question.textContent = data[qNumber].question;
     answersContainer.innerHTML = data.[qNumber].answers
