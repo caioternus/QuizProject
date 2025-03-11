@@ -78,7 +78,7 @@ const showQuestion = (qNumber) => {
     if (qIndex === data.length) return showResult();
     selectedAnswer = null;
     question.textContent = data[qNumber].question;
-    answersContainer.innerHTML = data.[qNumber].answers
+    answersContainer.innerHTML = data[qNumber].answers
         .map(
             (item, index) =>
 
