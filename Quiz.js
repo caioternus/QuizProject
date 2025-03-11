@@ -34,7 +34,7 @@ const data = [
 const gameScreen = document.querySelector(".game");
 const resultScreen = document.querySelector(".result");
 const question = document.querySelector(".question");
-const answerContainer = document.querySelector(".answers");
+const answersContainer = document.querySelector(".answers");
 const submit = document.querySelector(".submit");
 const play = document.querySelector(".play");
 
