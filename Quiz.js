@@ -23,7 +23,7 @@ const data = [
     {
         id: 1,
         question: "A group of which animals is referred to as a wake?",
-        answer: [
+        answers: [
             { answer: "bats", isCorrect: false },
             { answer: "vultures", isCorrect: true },
             { answer: "ants", isCorrect: false },
