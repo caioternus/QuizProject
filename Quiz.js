@@ -2,31 +2,31 @@
 const data = [
     {
         id: 1,
-        question: "Which of these fish is actually a fish?",
+        question: "Which is the most visited national park in the state of Idaho?",
         answers: [
-            { answer: "swordfish", isCorrect: true },
-            { answer: "jellyfish", isCorrect: false },
-            { answer: "starfish", isCorrect: false },
-            { answer: "crayfish", isCorrect: false },
+            { answer: "Nez Perce National Historic Park", isCorrect: true },
+            { answer: "City of Rocks National Reserve", isCorrect: false },
+            { answer: "Minidoka National Historic Site", isCorrect: false },
+            { answer: "Sawtooth National Forest", isCorrect: false },
         ],
     },
     {
         id: 2,
-        question: "A flutter is a group of:",
+        question: "Which is the oldest university in the state of Idaho?",
         answers: [
-            { answer: "bees", isCorrect: false },
-            { answer: "penguins", isCorrect: false },
-            { answer: "butterflies", isCorrect: true },
-            { answer: "camels", isCorrect: false },
+            { answer: "Boise State University", isCorrect: false },
+            { answer: "College of Idaho", isCorrect: false },
+            { answer: "University of Idaho", isCorrect: true },
+            { answer: "Idaho State University", isCorrect: false },
         ],
     },
     {
         id: 1,
-        question: "A group of which animals is referred to as a wake?",
+        question: "What is the state of Idaho best known for nationally?",
         answers: [
-            { answer: "bats", isCorrect: false },
-            { answer: "vultures", isCorrect: true },
-            { answer: "ants", isCorrect: false },
+            { answer: "Scenic landscapes and canyons", isCorrect: false },
+            { answer: "Gems and potatoes", isCorrect: true },
+            { answer: "Huckleberries, trout and hot springs", isCorrect: false },
         ],
     },
 ];
