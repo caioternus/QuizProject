@@ -81,11 +81,12 @@ const showQuestion = (qNumber) => {
     answersContainer.innerHTML = data[qNumber].answers
         .map(
             (item, index) =>
-
-                `<div class="answer">
+                `
+                <div class="answer">
                     <input type="radio" id=${index} name="answer" value=${item.isCorrect} />
                     <label for="1">${item.answer}</label>
-                </div>`
+                </div>
+                `
         )
         .join("");
     selectAnswer();
