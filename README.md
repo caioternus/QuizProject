@@ -1,6 +1,6 @@
 - This project is a simple three-question quiz of curiosities and facts about the state of Idaho, United States;
 
-- This project was developed in JavaScript, HTML and CSS;
+- This responsive web page project was developed in JavaScript, HTML and CSS;
 
 - The user can select the answer to the question using one of the buttons displayed below the question (only one selection is allowed) and send the answer using the "submit" button;
 
