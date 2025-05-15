@@ -9,3 +9,5 @@
 - The user's total score is calculated by summing the score for the questions. Each correct answer is worth 10 points and each incorrect answer is worth -10 points. Therefore, the maximum score is 30 points and the minimum score is -30 points. The correct answer for all the questions isn't showed to the user;
 
 - The files "QuizProject.jpg" and "QuizProject2.jpg" show a preview of the final page to the end user.
+
+![QuizProject](https://github.com/user-attachments/assets/3b8670cd-cc29-48c9-a460-f4df2d164402)
