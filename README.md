@@ -11,3 +11,4 @@
 - The files "QuizProject.jpg" and "QuizProject2.jpg" show a preview of the final page to the end user.
 
 ![QuizProject](https://github.com/user-attachments/assets/3b8670cd-cc29-48c9-a460-f4df2d164402)
+![QuizProject2](https://github.com/user-attachments/assets/eb5c173e-307c-4d2f-8a04-cbe9ce8268db)
